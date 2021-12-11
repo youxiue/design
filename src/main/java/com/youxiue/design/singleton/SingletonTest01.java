@@ -70,7 +70,7 @@ public class SingletonTest01 {
  */
 class HungrySingleton1 {
 
-    public HungrySingleton1() {
+    private HungrySingleton1() {
     }
 
     private final static HungrySingleton1 instance = new HungrySingleton1();
@@ -86,7 +86,7 @@ class HungrySingleton1 {
  * 线程安全, 但是不能懒加载, 可能会造成内存浪费
  */
 class HungrySingleton2 {
-    public HungrySingleton2() {
+    private HungrySingleton2() {
     }
 
     private static final HungrySingleton2 instance;
