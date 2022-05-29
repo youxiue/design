@@ -3,7 +3,7 @@ package com.youxiue.design.template;
 /**
  * Created by xfb on 2021/12/13 22:49.
  */
-public abstract class SoybeanMilk {
+public abstract class  SoybeanMilk {
 
     /**
      * 制作豆浆

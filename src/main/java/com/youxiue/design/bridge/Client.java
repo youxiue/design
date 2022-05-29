@@ -1,7 +1,7 @@
 package com.youxiue.design.bridge;
 
 /**
- * TODO
+ * 桥接模式
  *
  * @author xfb
  * @date 2021/12/3 17:51
