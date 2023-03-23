@@ -1,3 +1,4 @@
+# 设计模式
 ##七大原则
 核心思想
 1. 找出应用中可能需要变化之处，把它们独立出来，不要和那些不需要变化的代码混在一起。
@@ -47,3 +48,35 @@
 3. 但是注意:由于每个类都减少了不必要的依赖，因此迪米特法则只是要求降低类间(对象间)耦合关系，并不是要求完全没有依赖关系
 ### 合成复用原则
 尽量使用合成/聚合的方式, 而不是继承.
+
+
+## 设计模式
+### 目录
+1. 创建型模式
+    * builder: 构建器模式
+    * factory: 工厂模式
+        * abstract factory: 抽象工厂模式
+        * factory method: 工厂方法模式
+        * simple: 简单工厂模式
+    * prototype: 原型模式
+    * singleton: 单例模式
+2. 结构型模式
+    * adapter: 适配器模式
+    * bridge: 桥接模式
+    * composite: 组合模式
+    * decorator: 装饰模式
+    * facade: 外观模式
+    * flyweight: 享元模式
+    * proxy: 代理模式
+3. 行为性模式
+    * responsibilityChain: 职责链模式
+    * command: 命令模式
+    * interpreter: 解释器模式
+    * iterator: 迭代器模式
+    * Mediator: 中介者模式
+    * memento: 备忘录模式
+    * observer: 观察者模式
+    * state: 状态模式
+    * strategy: 策略模式
+    * template Method: 模板方法模式
+    * visitor: 访问者模式

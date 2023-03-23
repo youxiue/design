@@ -1,4 +1,6 @@
-package com.youxiue.design.strategy;
+package com.youxiue.design.strategy.examples.behavior.impl;
+
+import com.youxiue.design.strategy.examples.behavior.FlyBehavior;
 
 /**
  * Created by xfb on 2022/05/29 17:08.

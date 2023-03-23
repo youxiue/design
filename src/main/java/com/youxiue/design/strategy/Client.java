@@ -1,5 +1,10 @@
 package com.youxiue.design.strategy;
 
+import com.youxiue.design.strategy.examples.BeijingDuck;
+import com.youxiue.design.strategy.examples.Duck;
+import com.youxiue.design.strategy.examples.WildDuck;
+import com.youxiue.design.strategy.examples.behavior.QuackBehavior;
+
 /**
  * 策略模式
  * 关键:  分析项目中变化部分与不变部分

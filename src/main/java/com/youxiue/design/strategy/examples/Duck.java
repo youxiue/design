@@ -1,4 +1,7 @@
-package com.youxiue.design.strategy;
+package com.youxiue.design.strategy.examples;
+
+import com.youxiue.design.strategy.examples.behavior.FlyBehavior;
+import com.youxiue.design.strategy.examples.behavior.QuackBehavior;
 
 /**
  * Created by xfb on 2022/05/29 17:06.

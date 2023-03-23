@@ -21,7 +21,7 @@ public class MilkyTeaOrder {
         String orderType = "";
         while (true) {
             orderType = getType();
-            // 工厂方法模式
+            // 抽象工厂模式
             MilkyTea milkyTea = absFactory.createMilkyTea(orderType);
             if (milkyTea != null) {
                 milkyTea.prepare();

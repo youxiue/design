@@ -7,7 +7,7 @@ import com.youxiue.design.factory.simple.product.YzglMilkyTea;
 /**
  * @author: xfb
  * @projectName: design->MilkyTeaFactory
- * @description: TODO
+ * @description: 静态工厂模式
  * @date: 2021/07/13 17:48
  */
 public class MilkyTeaFactory {

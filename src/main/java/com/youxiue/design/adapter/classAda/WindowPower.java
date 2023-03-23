@@ -14,6 +14,6 @@ public class WindowPower extends HomePower implements PowerAdapter {
         int out = super.out();
         out = out/11;
         System.out.println("电脑充电器转换为" + out + "v电压");
-        return 0;
+        return out;
     }
 }

@@ -7,7 +7,7 @@ import org.springframework.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * cglib代理
+ * cglib代理工厂
  * Created by xfb on 2021/12/11 23:30.
  */
 public class TeacherProxyFactory implements MethodInterceptor {
@@ -19,7 +19,7 @@ public class TeacherProxyFactory implements MethodInterceptor {
     }
 
     /**
-     * 返回代理子类
+     * 创建并返回代理对象
      * @return
      */
     Object getProxyInstance(){
